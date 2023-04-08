@@ -1,4 +1,6 @@
 import React from 'react';
+import BestSeller from './components/Bestsellers';
+import Chat from './components/Chat';
 
 function App() {
   return (
@@ -11,10 +13,8 @@ function App() {
         fontSize: '2rem',
       }}
     >
-      <p style={{ maxWidth: '70%' }}>
-        Please use <a href="https://storybook.js.org/">Storybook</a> to create your components. It
-        has already been set up for you with an example in the `src/components` folder.
-      </p>
+      <BestSeller/>
+      <Chat/>
     </div>
   );
 }
