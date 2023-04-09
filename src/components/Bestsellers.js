@@ -49,6 +49,7 @@ const BestSeller = ({
         height: `${height}px`,
         borderRadius: `${borderRadius}px`,
         overflow: 'auto',
+        border:"outset",
       }}
     >
       <div

@@ -44,6 +44,9 @@ const Chat = ({
           borderTopLeftRadius: `${borderRadius}px`,
           borderTopRightRadius: `${borderRadius}px`,
           padding: 0,
+          borderTop:"outset",
+          borderLeft:"outset",
+          borderRight:"outset",
         }}
       >
         <div
@@ -136,6 +139,9 @@ const Chat = ({
           borderBottomRightRadius: `${borderRadius}px`,
           width: `${width}px`,
           height: `${textFieldHeight}px`,
+          borderBottom:"outset",
+          borderLeft:"outset",
+          borderRight:"outset",
         }}
       >
         <input
